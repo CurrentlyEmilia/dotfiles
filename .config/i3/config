@@ -9,8 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-# class                 border  backgr. text    indicator
-#client.focused          #4c7899 #285577 #ffffff #2e9ef4
+# class                 border		backgr.		text		indicator
 client.focused		#4c7899ff	#254cb37f	#ffffffff	#2e9ef4ff
 client.focused_inactive #333333ff 	#5f676a7f 	#ffffffff 	#484e50ff
 client.unfocused        #333333ff 	#2222227f 	#888888ff 	#292d2eff
