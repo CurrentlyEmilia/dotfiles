@@ -11,10 +11,10 @@
 
 # class                 border  backgr. text    indicator
 #client.focused          #4c7899 #285577 #ffffff #2e9ef4
-client.focused		#4c7899	#254cb3	#ffffff	#2e9ef4
-client.focused_inactive #333333 #5f676a #ffffff #484e50
-client.unfocused        #333333 #222222 #888888 #292d2e
-client.urgent           #2f343a #900000 #ffffff #900000
+client.focused		#4c7899ff	#254cb37f	#ffffffff	#2e9ef4ff
+client.focused_inactive #333333ff 	#5f676a7f 	#ffffffff 	#484e50ff
+client.unfocused        #333333ff 	#2222227f 	#888888ff 	#292d2eff
+client.urgent           #2f343aff 	#9000007f 	#ffffffff 	#900000ff
 
 exec_always xinput set-prop "15" "libinput Accel Profile Enabled" 0 1 0
 exec_always feh --bg-scale meeku.jpg
